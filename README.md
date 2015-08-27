@@ -1,7 +1,8 @@
 # RandomCode
 ========
 
-To use DomainAPI.php  
+To use DomainAPI.php, you need to obtain an APIKEY to authenticate, please contact me for one ( peter.laws@laws-hosting.co.uk )  
+Very basic for now  .
   
 // example, you will need to supply these somehow from the user  
    $domain = 'laws-hosting';  
