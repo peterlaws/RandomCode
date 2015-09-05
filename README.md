@@ -15,11 +15,11 @@ You must edit line 32 in DomainApi.php with your apikey, eg. $arguments['apikey'
    $sxml = new lawshost();  
    
 // to check domain availability, use  
-   $result = $sxml->check_availability($apikey, $domain, $tld);  
+   $result = $sxml->check_availability($domain, $tld);  
    print_r($result);  
   
 // to get a list of our tld extensions, use  
-   $result = $sxml->get_tlds($apikey);  
+   $result = $sxml->get_tlds();  
    print_r($result);  
   
 =========
