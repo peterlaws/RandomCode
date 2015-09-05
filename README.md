@@ -4,8 +4,8 @@
 To use DomainAPI.php, you need to obtain an APIKEY to authenticate, please contact me for one ( peter.laws@laws-hosting.co.uk )  
 Very basic for now  .
   
-// your 32 character api-key  
-You must edit line 32 in DomainApi.php with your apikey, eg. $arguments['apikey'] = "<ENTER YOUR API KEY>";  
+// your 36 character api-key  
+You must edit line 36 in DomainApi.php with your apikey, eg. $arguments['apikey'] = "<ENTER YOUR API KEY>";  
   
 // example, you will need to supply these somehow from the user  
    $domain = 'laws-hosting';  
