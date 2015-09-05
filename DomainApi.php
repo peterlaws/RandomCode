@@ -2,11 +2,10 @@
 
 class lawshost {
 
-
     function check_availability ($domain, $tld) {
         $arguments = array(
             'service'            => 'whois',
-            'domain-name'         => $domain,
+            'domain-name'        => $domain,
             'tld'                => $tld
         );
 
