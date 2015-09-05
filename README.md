@@ -4,6 +4,9 @@
 To use DomainAPI.php, you need to obtain an APIKEY to authenticate, please contact me for one ( peter.laws@laws-hosting.co.uk )  
 Very basic for now  .
   
+// your 32 character api-key
+   $apikey = ''; 
+  
 // example, you will need to supply these somehow from the user  
    $domain = 'laws-hosting';  
    $tld = 'co.uk';  
@@ -12,11 +15,11 @@ Very basic for now  .
    $sxml = new lawshost();  
    
 // to check domain availability, use  
-   $result = $sxml->check_availability($domain,$tld);  
+   $result = $sxml->check_availability($apikey, $domain, $tld);  
    print_r($result);  
   
 // to get a list of our tld extensions, use  
-   $result = $sxml->get_tlds();  
+   $result = $sxml->get_tlds($apikey);  
    print_r($result);  
   
 =========
